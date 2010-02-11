@@ -1,0 +1,9 @@
+<div class="twitterfavorite">
+	<div class="title"><a href="<?= $this->item->getLink(); ?>" target='_blank'><?= $this->item->getTitle(); ?></a></div>
+	<div class="content">
+		<div class="note">
+			<blockquote><?= $this->item->getContent(); ?></blockqoute>
+		</div>
+		<div class="footnote">Author: <a href="<?= $this->item->getAuthorLink(); ?>" target="_blank"><?= $this->item->getAuthor(); ?></a></div>
+	</div>
+</div>
